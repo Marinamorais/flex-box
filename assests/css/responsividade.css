@@ -1,0 +1,30 @@
+.janela1{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+}
+.janela2{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+}
+.janela3{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+}
+@media screen and (max-width: 600px) {
+    .janela1{
+        width: 200px;
+        height: 200px;
+    }
+    .janela2{
+        width: 200px;
+        height: 200px;
+    }
+    .janela3{
+        width: 200px;
+        height: 200px;
+    }
+    
+}

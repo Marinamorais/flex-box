@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid rgb(70, 69, 69);
+}
+
+.item{
+    margin: 1px;
+    background-color: rgb(238, 163, 71);
+    text-align: center;
+    font-size: 1.5em;
+    flex: 1;
+}
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.row{
+    flex-direction: row;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.row-column{
+    flex-direction: column;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
+}

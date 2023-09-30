@@ -1,0 +1,43 @@
+.container{
+    max-width: 420px;
+    margin: 0 auto;
+    border: 2px solid #cccc;
+    display: flex;
+}
+.item{
+    margin: 5px;
+    background-color: rgb(157, 235, 238);
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0 10px;
+}
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+.flex-center{
+    justify-content: center;
+}
+.flex-between{
+    justify-content: space-between;
+}
+
+.flex-around{
+    justify-content: space-around;
+}
+.column{
+    flex-direction: column;
+    min-height: 200px;
+}
+.space-around{
+    justify-content: space-around;
+}
